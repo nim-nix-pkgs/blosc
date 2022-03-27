@@ -11,6 +11,7 @@
   inputs.src-blosc-v1_15_0.ref   = "refs/tags/v1.15.0";
   inputs.src-blosc-v1_15_0.owner = "Vindaar";
   inputs.src-blosc-v1_15_0.repo  = "nblosc";
+  inputs.src-blosc-v1_15_0.dir   = "";
   inputs.src-blosc-v1_15_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

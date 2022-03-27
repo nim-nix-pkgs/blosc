@@ -11,6 +11,7 @@
   inputs.src-blosc-master.ref   = "refs/heads/master";
   inputs.src-blosc-master.owner = "Vindaar";
   inputs.src-blosc-master.repo  = "nblosc";
+  inputs.src-blosc-master.dir   = "";
   inputs.src-blosc-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
