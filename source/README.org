@@ -1,0 +1,7 @@
+* nblosc - Nim wrapper for blosc
+
+This is a wrapper for the [[https://github.com/Blosc/c-blosc][blosc]] compression library for the Nim
+language.
+
+The wrapper was first built by [[https://github.com/Skrylar][@Skrylar]], who have archived their
+repository. Hence I take over maintenance.
